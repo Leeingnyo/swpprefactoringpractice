@@ -1,5 +1,5 @@
 class DateCalculator
-  attr_accessor :days :year
+  attr_accessor :days, :year
 
   def initialize(days)
     @days = days
